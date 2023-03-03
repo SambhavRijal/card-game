@@ -14,7 +14,7 @@ const SingleCard = (props) => {
       if (isMatched) {
         setMatched(true);
       }
-    }, 500);
+    }, 300);
   }, [isMatched]);
 
   console.log(matched);

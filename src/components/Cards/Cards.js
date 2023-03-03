@@ -41,7 +41,7 @@ const Cards = (props) => {
         setSelectedCard([]);
         setTimeout(() => {
           resetHidden();
-        }, 500);
+        }, 300);
       }
     }
   }, [selectedCard]);
